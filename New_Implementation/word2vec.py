@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split
 import re
 import matplotlib.pyplot as plt
 
+print("Preparing Word2Vec Model")
+
 df = pd.read_csv('twitter_training.csv', names=['id','source','sentiment', 'text'])
 df=df[['sentiment','text']]
 possible_labels = df.sentiment.unique()
