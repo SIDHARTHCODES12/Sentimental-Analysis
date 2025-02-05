@@ -1,0 +1,35 @@
+18/1/2024
+converted y feature to onehot and appended with dataset
+making a word2vec model
+
+20/1/2024
+creating word2vec model
+
+1st observation
+epoch -64
+n dim=50
+lr=0.01
+loss = 64 ---------- 8.966529766619058
+
+
+2nd observation
+epoch 65
+n dim=1000
+lr= 0.01
+loss = 42 ---------- 8.900869188418854
+loss = 64 ---------- 8.920999701283833
+
+
+
+
+To do :-
+Traiing : -
+
+prepared word2vec model
+Save the model as apython file and save its weights
+use tjhe weights to find the word vectors
+find sentence vectors 
+create model to convert into 3 dimension
+find loss between x and y
+do backpropogation
+check wheather loss is decrreasing or not 
