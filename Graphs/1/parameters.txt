@@ -1,0 +1,10 @@
+dim = 1000
+w2v lr = 0.001
+no epoch =250
+window =5
+
+sentimental analysis
+lr = 0.0001
+no epoch = 50
+batch size = 10
+no of hidden layers = 2

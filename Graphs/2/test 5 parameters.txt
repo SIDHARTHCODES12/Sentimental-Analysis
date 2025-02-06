@@ -1,0 +1,11 @@
+n dim = 100
+
+w2v lr =0.001
+epoch 250
+window size = 5
+
+analysis
+no of hidden layers = 3
+no epoch =200
+lr=0.0001
+batch size =15
